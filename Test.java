@@ -2,9 +2,18 @@ public class Test {
     public static void main (String[] args) {
         int x = 80;
     System.out.println(x);
+    //Esm
+        String firstname = "Mohammad Mahdi";
+                String lastname = " Rajabzadeh";
+                String fullname = firstname + lastname;
+                System.out.println (fullname);
+
  //Jam sade
         String myText = "Mathtime Easy";
         int s = 4444 + 2323;
+        int o = 5;
+        int y = 16;
+        System.out.println(o + y);
         System.out.println(myText);
         System.out.println(s);
 
@@ -23,5 +32,17 @@ public class Test {
         System.out.println(sum2);
         System.out.println(LVL3);
         System.out.println(sum3);
+
+        int myInt = 9;
+        double  myDouble = myInt;
+                System.out.println(myInt);
+                System.out.println(myDouble);
+
+        double myDouble2 = 9.16d;
+        int myInt2 = (int) myDouble2;
+        System.out.println(myDouble2);
+        System.out.println(myInt2);
+
+
  }
 }
